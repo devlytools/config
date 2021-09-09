@@ -1,0 +1,12 @@
+### Composer
+composer.phar
+/vendor/
+
+### PspStorm
+.idea/
+
+### macOS template
+# General
+.DS_Store
+
+*.cache

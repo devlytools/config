@@ -1,0 +1,27 @@
+{
+  "name": "devly/config-loader",
+  "description": "description",
+  "type": "library",
+  "minimum-stability": "stable",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Valentin Jebelev",
+      "email": "vala.jebelev@gmail.com"
+    }
+  ],
+  "autoload" : {
+    "psr-4": {
+      "Devly\\Support\\" : "src"
+    },
+    "files": [
+      "src/helpers.php"
+    ]
+  },
+  "require": {
+    "php": ">=7.2"
+  },
+  "require-dev": {
+    "phpunit/phpunit": "^9.5"
+  }
+}
